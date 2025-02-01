@@ -10,8 +10,11 @@ g++ split.cpp test_split.cpp -o test_split
 */
 
 #include "split.h"
+#include <iostream>
+
 
 int main(int argc, char* argv[])
 {
+    std::cout << "Testing works!" << std::endl;
 
 }
